@@ -1,0 +1,158 @@
+@media (max-width: 1550px) {
+    main{
+        width: auto;
+        padding: 0 20px;
+    }
+
+    header{
+        width: auto;
+        padding: 0 20px;
+    }
+
+    footer{
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .hebergements-and-populaires{
+        flex-direction: column-reverse;
+    }
+    .hebergements{
+        max-width: none;
+        width: auto;
+    }
+
+    .hebergements .hebergements-cards{
+        gap: 30px;
+    }
+
+    .hebergements .hebergements-cards  a{
+        width: 31.1%;
+    }
+
+    .hebergements-cards .card{
+        width: 100%;
+    }
+
+    .populaires{
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    .populaires-cards {
+       display: flex;
+       justify-content: space-around;
+    }
+    
+    .populaires .populaires-cards  a{
+        width: 31.1%;
+    }
+
+
+}
+
+@media (max-width: 1070px){
+
+    .buttonH{
+        gap: 20px;
+    }
+
+    .buttonH ul{
+        gap: 10px;
+    }
+
+    .buttonH ul li span {
+        font-size: 16px;
+    }
+
+    .hebergements .hebergements-cards  a{
+        margin-right: 5%;
+        width: 42%;
+    }
+
+    .hebergements-cards .card{
+        width: 100%;
+    }
+
+    .populaires{
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    .populaires-cards {
+       display: flex;
+       justify-content: space-around;
+       flex-direction: column;
+    }
+    
+    .populaires .populaires-cards  a{
+        width: 100%;
+    }
+
+
+    .activites2{
+        flex-direction: column;
+    }
+
+    .activites-cards {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .activites2 .groupe img{
+        height: 150px;
+    }
+
+    .groupe .activites-cards{
+        width: 100%;
+    }
+
+    .groupe{
+        height: 50%;
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 768px){
+
+   header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+    header nav a {
+        padding: 50px 100px;
+    }
+
+    .recherche{
+        margin-bottom: 20px;
+    }
+
+    .recherche input{
+        width: 100%;
+    }
+
+    .buttonH{
+        margin-bottom: 20px;
+    }
+
+    .populaires{
+        background-color:gray ;
+    }
+
+    .hebergements .hebergements-cards  a{
+        margin-right: 5%;
+        width: 100%;
+    }
+
+    .hebergements-cards .card{
+        width: 100%;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+}
